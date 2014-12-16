@@ -2,7 +2,7 @@ package training;
 
 public class Rectangle extends Figure{
 	private int[] leftUp, rightDown;
-	Rectangle(int[] leftUp, int[] rightDown){
+	public Rectangle(int[] leftUp, int[] rightDown){
 		this.leftUp = leftUp;
 		this.rightDown = rightDown;
 	}

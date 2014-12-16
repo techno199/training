@@ -3,7 +3,7 @@ import java.lang.Math;
 public class Circle extends Figure{
 	private int radius;
 	private int[] mid;
-	Circle(int[] mid, int radius){
+	public Circle(int[] mid, int radius){
 		this.mid = mid;
 		this.radius = radius;
 	}

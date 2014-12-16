@@ -1,8 +1,8 @@
 package training;
 
 public class Line extends Figure{
-	protected int[] point1,point2;
-	Line(int[] point1, int[] point2){
+	private int[] point1,point2;
+	public Line(int[] point1, int[] point2){
 		this.point1 = point1;
 		this.point2 = point2;
 	}
