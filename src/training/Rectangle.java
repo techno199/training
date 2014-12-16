@@ -1,6 +1,6 @@
 package training;
 
-class Rectangle extends Figure{
+public class Rectangle extends Figure{
 	private int[] leftUp, rightDown;
 	Rectangle(int[] leftUp, int[] rightDown){
 		this.leftUp = leftUp;
@@ -9,7 +9,7 @@ class Rectangle extends Figure{
 	public void draw(){
 		//Drawdrawdrawdrawdraw
 	}
-	public int area(){
+	public double area(){
 		return Math.abs((leftUp[0]-rightDown[0])*(leftUp[1]-rightDown[1]));
 	}
 }

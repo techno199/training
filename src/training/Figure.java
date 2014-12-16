@@ -1,6 +1,6 @@
 package training;
 
 abstract class Figure{
-	abstract int area();
+	abstract double area();
 	abstract void draw();
 }

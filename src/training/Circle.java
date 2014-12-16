@@ -1,6 +1,6 @@
 package training;
 import java.lang.Math;
-class Circle extends Figure{
+public class Circle extends Figure{
 	private int radius;
 	private int[] mid;
 	Circle(int[] mid, int radius){
@@ -10,8 +10,8 @@ class Circle extends Figure{
 	public void draw(){
 		//drawdrawdrawdrawdraw
 	}
-	public int area(){
-		return (int) (3.1416*Math.pow(radius, 2));
+	public double area(){
+		return  (3.1416*Math.pow(radius, 2));
 	}
 	public int[] get_center(){
 		return mid;
